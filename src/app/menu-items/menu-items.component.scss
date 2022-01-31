@@ -1,22 +1,54 @@
-.navbar {    
-    background: #2C3E50;
-    .navbar-nav li a {
-      color: hsl(0, 0%, 6%);
-      &:hover, &:focus, &:active {
-        background: #FDEC00;
-       // background-color: transparent;
-        -webkit-box-shadow: none;
-        -moz-box-shadow: none;
-        box-shadow: none;
-       
-      }
+.navbar {
+  background: #2c3e50;
+  .navbar-nav li a {
+    color: hsl(0, 0%, 6%);
+    &:hover,
+    &:focus,
+    &:active {
+      background: #fdec00;
+      // background-color: transparent;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
     }
   }
+}
 
-  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    margin-bottom: 0.5rem;
-    font-family: ‘Oswald’, sans-serif;
-    font-weight: 500;
-    line-height: 1.2;
-    color: inherit;
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 0.5rem;
+  font-family: ‘Oswald’, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+.main {
+  position: relative;
+  background: url(../../assets/images/16.png);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  // padding: 280px 0 220px;
+  align-items: center;
+  color: white;
+}
+
+.services-text h5 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 10px;
+  text-align: center;
+}
+
+
