@@ -8,7 +8,8 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { ServicesComponent } from './services/services.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { RouterModule } from '@angular/router';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,9 @@ import { RouterModule } from '@angular/router';
     CarouselComponent,
     ServicesComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    ContactUsComponent,
+    AboutUsComponent
   ],
   imports: [
   
