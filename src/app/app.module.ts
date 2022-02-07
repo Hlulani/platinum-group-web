@@ -10,6 +10,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { WasteManagementComponent } from './waste-management/waste-management.component';
+import { TransportAndLogisticsComponent } from './transport-and-logistics/transport-and-logistics.component';
+import { ConstructionComponent } from './construction/construction.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { AboutUsComponent } from './about-us/about-us.component';
     FooterComponent,
     HomeComponent,
     ContactUsComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    WasteManagementComponent,
+    TransportAndLogisticsComponent,
+    ConstructionComponent
   ],
   imports: [
   
