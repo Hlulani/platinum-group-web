@@ -13,6 +13,9 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { WasteManagementComponent } from './waste-management/waste-management.component';
 import { TransportAndLogisticsComponent } from './transport-and-logistics/transport-and-logistics.component';
 import { ConstructionComponent } from './construction/construction.component';
+import { ConstructionBrochureComponent } from './construction-brochure/construction-brochure.component';
+import { ConstructionBrochureTwoComponent } from './construction-brochure-two/construction-brochure-two.component';
+import { ConstructionBrochureThreeComponent } from './construction-brochure-three/construction-brochure-three.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { ConstructionComponent } from './construction/construction.component';
     AboutUsComponent,
     WasteManagementComponent,
     TransportAndLogisticsComponent,
-    ConstructionComponent
+    ConstructionComponent,
+    ConstructionBrochureComponent,
+    ConstructionBrochureTwoComponent,
+    ConstructionBrochureThreeComponent
   ],
   imports: [
   

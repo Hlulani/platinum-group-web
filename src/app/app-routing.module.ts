@@ -7,6 +7,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { WasteManagementComponent } from './waste-management/waste-management.component';
 import { TransportAndLogisticsComponent } from './transport-and-logistics/transport-and-logistics.component';
 import { ConstructionComponent } from './construction/construction.component';
+import { ConstructionBrochureComponent } from './construction-brochure/construction-brochure.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'waste', component: WasteManagementComponent },
   {path: 'transport', component: TransportAndLogisticsComponent},
   {path: 'construction', component: ConstructionComponent},
+  {path: 'con-brochure', component: ConstructionBrochureComponent}
 
 ];
 

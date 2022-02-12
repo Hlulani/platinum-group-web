@@ -12,6 +12,10 @@ body {
 
 
 }
+
+.content h3 {
+    margin-top: 20px;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -89,4 +93,21 @@ body {
       left: 0px;
       opacity: 0.75;
       background-position: center;
+}
+
+.btn{
+    background-color: #333;
+    // background-color:  #4d4dff;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
 }
