@@ -8,6 +8,8 @@ import { WasteManagementComponent } from './waste-management/waste-management.co
 import { TransportAndLogisticsComponent } from './transport-and-logistics/transport-and-logistics.component';
 import { ConstructionComponent } from './construction/construction.component';
 import { ConstructionBrochureComponent } from './construction-brochure/construction-brochure.component';
+import { ConstructionBrochureAluminumComponent } from './construction-brochure-Aluminum/construction-brochure-aluminum.component';
+import { ConstructionBrochureGypsumComponent } from './construction-brochure-gypsum/construction-brochure-gypsum.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -17,7 +19,9 @@ const routes: Routes = [
   {path: 'waste', component: WasteManagementComponent },
   {path: 'transport', component: TransportAndLogisticsComponent},
   {path: 'construction', component: ConstructionComponent},
-  {path: 'con-brochure', component: ConstructionBrochureComponent}
+  {path: 'con-brochure', component: ConstructionBrochureComponent},
+  {path: 'aluminum', component: ConstructionBrochureAluminumComponent},
+  {path: 'gypsum', component: ConstructionBrochureGypsumComponent},
 
 ];
 

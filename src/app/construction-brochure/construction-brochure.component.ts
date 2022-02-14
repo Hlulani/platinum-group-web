@@ -14,7 +14,7 @@ export class ConstructionBrochureComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  brochreBtnClick() {
-    this.router.navigateByUrl('/con-brochure');
-  };
+  // brochreBtnClick() {
+  //   this.router.navigateByUrl('/con-brochure');
+  // };
 }

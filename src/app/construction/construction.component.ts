@@ -17,4 +17,12 @@ export class ConstructionComponent implements OnInit {
   brochreBtnClick() {
     this.router.navigateByUrl('/con-brochure');
   };
+
+  brochureAlluminiumBtnClick() {
+    this.router.navigateByUrl('/aluminum');
+  };
+
+  brochureGypsumBtnClick() {
+    this.router.navigateByUrl('/gypsum');
+  };
 }

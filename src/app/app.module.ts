@@ -14,8 +14,8 @@ import { WasteManagementComponent } from './waste-management/waste-management.co
 import { TransportAndLogisticsComponent } from './transport-and-logistics/transport-and-logistics.component';
 import { ConstructionComponent } from './construction/construction.component';
 import { ConstructionBrochureComponent } from './construction-brochure/construction-brochure.component';
-import { ConstructionBrochureTwoComponent } from './construction-brochure-two/construction-brochure-two.component';
-import { ConstructionBrochureThreeComponent } from './construction-brochure-three/construction-brochure-three.component';
+import { ConstructionBrochureAluminumComponent } from './construction-brochure-Aluminum/construction-brochure-aluminum.component';
+import { ConstructionBrochureGypsumComponent } from './construction-brochure-gypsum/construction-brochure-gypsum.component';
 
 @NgModule({
   declarations: [
@@ -31,8 +31,9 @@ import { ConstructionBrochureThreeComponent } from './construction-brochure-thre
     TransportAndLogisticsComponent,
     ConstructionComponent,
     ConstructionBrochureComponent,
-    ConstructionBrochureTwoComponent,
-    ConstructionBrochureThreeComponent
+    ConstructionBrochureAluminumComponent,
+    ConstructionBrochureGypsumComponent
+    
   ],
   imports: [
   
