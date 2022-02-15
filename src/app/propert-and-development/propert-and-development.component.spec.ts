@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TransportAndLogisticsComponent } from './transport-and-logistics.component';
+import { TransportAndLogisticsComponent } from './propert-and-development.component';
 
 describe('TransportAndLogisticsComponent', () => {
   let component: TransportAndLogisticsComponent;

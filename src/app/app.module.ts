@@ -11,7 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { WasteManagementComponent } from './waste-management/waste-management.component';
-import { TransportAndLogisticsComponent } from './transport-and-logistics/transport-and-logistics.component';
+import { PropertyAndDevelopmentComponent } from './propert-and-development/propert-and-development.component';
 import { ConstructionComponent } from './construction/construction.component';
 import { ConstructionBrochureComponent } from './construction-brochure/construction-brochure.component';
 import { ConstructionBrochureAluminumComponent } from './construction-brochure-Aluminum/construction-brochure-aluminum.component';
@@ -28,7 +28,7 @@ import { ConstructionBrochureGypsumComponent } from './construction-brochure-gyp
     ContactUsComponent,
     AboutUsComponent,
     WasteManagementComponent,
-    TransportAndLogisticsComponent,
+    PropertyAndDevelopmentComponent,
     ConstructionComponent,
     ConstructionBrochureComponent,
     ConstructionBrochureAluminumComponent,
