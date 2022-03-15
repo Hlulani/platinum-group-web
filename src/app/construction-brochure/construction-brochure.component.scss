@@ -5,6 +5,10 @@ div>ul>li {
     
   }
   
+  html {
+    scroll-behavior: smooth;
+  }
+  
   body[id="main"]{
     background-color: #FAFAFA;
     border: 5px solid ye;
